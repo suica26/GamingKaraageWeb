@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <!--基本設定-->
+  <head>
+    <meta charset="utf-8" />
+    <!--Webページ名の指定-->
+    <!--↓この下の1文を変更してください↓-->
+    <title>ダウンロード｜FourLegsChicken</title>
+    <!--CSSファイルの指定-->
+    <link rel="stylesheet" href="./TGStemplatefile/contents.css" />
+  </head>
+
+  <!--コンテンツ本体-->
+  <body>
+    <div class="container">
+      <!--ヘッダー-->
+      <header>
+        <!--ロゴ指定-->
+        <img src="./TGStemplatefile/GameLogo.png" class="glogo" />
+        <img src="./TGStemplatefile/TeamLogo.png" class="tlogo" />
+
+        <!--タブ設定-->
+        <div class="headlines">
+          <ul id="hl">
+            <li>
+              <a href="index.html"
+                ><button class="select" type="button">トップ</button></a
+              >
+            </li>
+            <li>
+              <a href="About.html"
+                ><button class="select" type="button">どんなゲーム？</button></a
+              >
+            </li>
+            <li>
+              <a href="HowToPlay.html"
+                ><button class="select" type="button">遊び方</button></a
+              >
+            </li>
+            <li>
+              <a href="Staff.html"
+                ><button class="select" type="button">スタッフ</button></a
+              >
+            </li>
+            <li>
+              <a href="Download.html"
+                ><button class="selectA" type="button">ダウンロード</button></a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <!--メインコンテンツ-->
+      <main>
+        <div class="DLA">
+          <div class="DL">
+            <!--ダウンロード用リンク-->
+            <h1>ゲームのダウンロード</h1>
+            <h2>↓以下のリンクをクリックするとゲームがダウンロードできます↓</h2>
+            <ul id="DLs">
+              <!--↓ href="実際にアップしたzipファイルのパス"、download="相手方にダウンロードされるzipファイルの名前"となるように変更してください。後者の記述はお好きなように。↓-->
+              <li>
+                <a
+                  href="./TGStemplatefile/FLC_Beta_ver2.3.zip"
+                  download="FourLegsChicken.zip"
+                  >FourLegsChicken_Beta_Ver2.3</a
+                >
+              </li>
+            </ul>
+            <!--更新情報-->
+            <h1>更新情報</h1>
+            <div class="UpdateBox">
+              <iframe
+                src="./TGStemplatefile/UpdateTab.html"
+                frameborder="1"
+                allowfullscreen=""
+                >インラインフレーム対応ブラウザでご覧いただけます。</iframe
+              >
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!--フッター-->
+      <footer>
+        <!--コミュニケーションマーク指定-->
+        <img src="./TGStemplatefile/comm_mark.png" class="cmark" />
+        <p>©Tokyo Univercity of Technology</p>
+      </footer>
+    </div>
+  </body>
+</html>

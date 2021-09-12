@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <!--基本設定-->
+  <head>
+    <meta charset="utf-8" />
+    <!--Webページ名の指定-->
+    <!--↓この下の1文を変更してください↓-->
+    <title>FourLegsChicken</title>
+    <!--CSSファイルの指定-->
+    <link rel="stylesheet" href="./TGStemplatefile/top.css" />
+  </head>
+  <!--コンテンツ本体-->
+  <body>
+    <div class="container">
+      <!--ヘッダー-->
+      <header>
+        <!--ロゴ指定-->
+        <img src="./TGStemplatefile/GameLogo.png" class="glogo" />
+        <img src="./TGStemplatefile/TeamLogo.png" class="tlogo" />
+        <!--タブ設定-->
+        <div class="headlines">
+          <ul id="hl">
+            <li>
+              <a href="index.html"
+                ><button class="selectA" type="button">トップ</button></a
+              >
+            </li>
+            <li>
+              <a href="About.html"
+                ><button class="select" type="button">どんなゲーム？</button></a
+              >
+            </li>
+            <li>
+              <a href="HowToPlay.html"
+                ><button class="select" type="button">遊び方</button></a
+              >
+            </li>
+            <li>
+              <a href="Staff.html"
+                ><button class="select" type="button">スタッフ</button></a
+              >
+            </li>
+            <li>
+              <a href="Download.html"
+                ><button class="select" type="button">ダウンロード</button></a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
+      <!--メインコンテンツ-->
+      <main>
+        <div class="Titles">
+          <!--ロゴ指定-->
+          <img src="./TGStemplatefile/GameLogo.png" class="glogomain" />
+
+          <div class="CC">
+            <!--↓この下の文を変更してください↓-->
+            <p>
+              暴れまわって建物を壊す爽快感を！
+              <!--改行は「<br>」です。-->
+            </p>
+          </div>
+        </div>
+        <div class="NT">
+          <ul>
+            <li id="NB">
+              <!--新着情報-->
+              <div class="NewsBox">
+                <h1>新着情報</h1>
+                <iframe
+                  src="./TGStemplatefile/NewsTab.html"
+                  frameborder="1"
+                  allowfullscreen=""
+                  >インラインフレーム対応ブラウザでご覧いただけます。</iframe
+                >
+              </div>
+            </li>
+            <li>
+              <!--Twitter-->
+              <div class="TwitterBox">
+                <h1>Twitter</h1>
+                <!--↓この下の1文を変更してください↓-->
+                <a
+                  class="twitter-timeline"
+                  data-lang="ja"
+                  width="400"
+                  height="450"
+                  href="https://twitter.com/Karaage_TUT"
+                  >Tweets by GamingKaraage</a
+                >
+                <script
+                  async
+                  src="https://platform.twitter.com/widgets.js"
+                  charset="utf-8"
+                ></script>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </main>
+      <!--フッター-->
+      <footer>
+        <!--コミュニケーションマーク指定-->
+        <img src="./TGStemplatefile/comm_mark.png" class="cmark" />
+        <p>©Tokyo Univercity of Technology</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 99%;
+  height: auto;
+}
+
+/*全体設定*/
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+.container {
+  position: relative;
+  padding-bottom: 95px;
+  box-sizing: border-box;
+  min-height: 85vh;
+}
+
+/*ヘッダー設定*/
+header {
+  background-color: #cc6300; /*ヘッダー全体の基本色です*/
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+/*ロゴ設定*/
+.glogo {
+  height: 50%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.tlogo {
+  height: 50%;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+/*タブ設定*/
+.headlines {
+  margin-bottom: -16px;
+  padding: 50px 0 0 0;
+}
+#hl {
+  list-style: none;
+  overflow: hidden;
+}
+#hl li .selectA {
+  width: 18.5%;
+  height: 250%;
+  line-height: 250%;
+  text-align: center;
+  background-color: rgb(156, 38, 38); /*現在のタブの色です*/
+  float: left;
+  margin-right: 1%;
+  border: 0;
+}
+#hl li .select {
+  width: 18.5%;
+  height: 200%;
+  line-height: 200%;
+  text-align: center;
+  background-color: rgb(233, 104, 104); /*現在のタブではないタブの色です*/
+  float: left;
+  margin-right: 1%;
+  border: 0;
+}
+#hl li a button {
+  text-decoration: none;
+  color: #fff; /*ヘッダーの文字色です*/
+  font-weight: bold;
+}
+
+/*メインコンテンツ設定*/
+main {
+  background-image: url("BackGround.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: static;
+  margin: 106px 0 0 0;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  min-height: 75vh;
+}
+/*ゲームロゴ＆キャッチコピー全体設定*/
+.Titles {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 10%;
+}
+/*ゲームロゴ設定*/
+.glogomain {
+  width: 40%;
+  position: absolute;
+  transform: translate(0%, -50%);
+  top: 250px;
+  left: 10%;
+}
+/*キャッチコピー設定*/
+.CC {
+  position: absolute;
+  top: 250px;
+  left: 57.5%;
+  width: 40%;
+  height: auto;
+  text-align: center;
+  display: block;
+}
+.CC p {
+  text-align: left;
+  display: inline-block;
+  font-weight: bold;
+  width: 100%;
+  font-size: 200%;
+  color: rgb(233, 104, 104); /*キャッチコピーの文字色です*/
+  word-wrap: break-word;
+}
+/*お知らせ全体設定*/
+.NT {
+  width: 100%;
+  height: 600px;
+}
+.NT li {
+  list-style: none;
+  float: left;
+  width: 400px;
+  height: 450px;
+}
+.NT h1 {
+  color: rgb(233, 104, 104); /*"新着情報"と"Twitter"の文字色です*/
+}
+/*新着情報設定*/
+#NB {
+  margin-right: 15%;
+}
+.NewsBox {
+  width: 400px;
+  height: 450px;
+}
+.NewsBox iframe {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+/*Twitter設定*/
+.TwitterBox {
+  width: 400px;
+  height: 450px;
+}
+.TwitterBox h1 {
+  margin-bottom: 35px;
+}
+
+/*フッター設定*/
+footer {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #cc6300; /*フッター全体の基本色です*/
+  z-index: 10;
+}
+/*ロゴ設定*/
+.cmark {
+  height: 50%;
+  position: absolute;
+  top: 25%;
+  left: 2%;
+}
+footer p {
+  position: absolute;
+  top: 20%;
+  left: 7%;
+  color: #fff; /*フッターの文字色です*/
+  font-weight: 200;
+  font-size: 120%;
+}

@@ -1,0 +1,390 @@
+@charset "UTF-8";
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 99%;
+  height: auto;
+}
+
+/*全体設定*/
+body {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+.container {
+  position: relative;
+  padding-bottom: 95px;
+  box-sizing: border-box;
+  min-height: 85vh;
+}
+
+/*ヘッダー設定*/
+header {
+  background-color: #cc6300; /*ヘッダー全体の基本色です*/
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+/*ロゴ設定*/
+.glogo {
+  height: 50%;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.tlogo {
+  height: 50%;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+/*タブ設定*/
+.headlines {
+  margin-bottom: -16px;
+  padding: 50px 0 0 0;
+}
+#hl {
+  list-style: none;
+  overflow: hidden;
+}
+#hl li .selectA {
+  width: 18.5%;
+  height: 250%;
+  line-height: 250%;
+  text-align: center;
+  background-color: rgb(156, 38, 38); /*現在のタブの色です*/
+  float: left;
+  margin-right: 1%;
+  border: 0;
+}
+#hl li .select {
+  width: 18.5%;
+  height: 200%;
+  line-height: 200%;
+  text-align: center;
+  background-color: rgb(233, 104, 104); /*現在のタブではないタブの色です*/
+  float: left;
+  margin-right: 1%;
+  border: 0;
+}
+#hl li a button {
+  text-decoration: none;
+  color: #fff; /*ヘッダーの文字色です*/
+  font-weight: bold;
+}
+
+/*メインコンテンツ設定*/
+main {
+  background-image: url("BackGround.png"); /*必要ならこの文を変更してください*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: static;
+  margin: 106px 0 0 0;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  min-height: 75vh;
+}
+
+/*どんなゲームページ設定*/
+.aboutA {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+}
+.about {
+  position: relative;
+  top: 30px;
+  left: 10%;
+  width: 80%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+.about h1 {
+  position: relative;
+  margin-top: 100px;
+  padding-top: 30px;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  color: #222; /*文字色設定*/
+}
+/*ゲーム概要設定*/
+#abouts li {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  margin-bottom: -10px;
+}
+#abouts h2 {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  margin-bottom: -15px;
+  color: #222; /*文字色設定*/
+}
+#abouts p {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  padding-bottom: 30px;
+  color: #222; /*文字色設定*/
+}
+#abouts iframe {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 560px;
+  height: 315px;
+  padding-bottom: 30px;
+}
+/*ストーリー等導入設定*/
+#stories {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#stories p {
+  position: relative;
+  left: 10%;
+  width: 100%;
+  height: 80%;
+  margin-top: -15px;
+  word-wrap: break-word;
+  color: #222; /*文字色設定*/
+}
+/*キャラクター紹介設定*/
+#characters {
+  list-style: none;
+}
+#characters li {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  margin-bottom: -10px;
+}
+#characters img {
+  position: relative;
+  height: 150px;
+  margin-bottom: -10px;
+}
+#characters h2 {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  margin-bottom: -15px;
+  color: #222; /*文字色設定*/
+}
+#characters p {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  padding-bottom: 75px;
+  color: #222; /*文字色設定*/
+}
+
+/*遊び方ページ設定*/
+.HowA {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+}
+.How {
+  position: relative;
+  top: 30px;
+  left: 10%;
+  width: 80%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+.How h1 {
+  position: relative;
+  margin-top: 100px;
+  padding-top: 30px;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  color: #222; /*文字色設定*/
+}
+#Hows {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  padding-bottom: 20px;
+}
+#Hows li {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  margin-bottom: -10px;
+}
+#Hows h2 {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  padding-top: 30px;
+  margin-bottom: -25px;
+  color: #222; /*文字色設定*/
+}
+#Hows p {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  font-size: 125%;
+  color: #222; /*文字色設定*/
+}
+#Hows img {
+  position: relative;
+  left: 10%;
+  width: 70%;
+  padding-bottom: 20px;
+}
+
+/*スタッフページ設定*/
+.staffA {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+}
+.staff {
+  position: relative;
+  top: 30px;
+  left: 10%;
+  width: 80%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+.staff h1 {
+  position: relative;
+  margin-top: 100px;
+  padding-top: 30px;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  color: #222; /*文字色設定*/
+}
+#staffs {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  text-align: center;
+}
+#staffs img {
+  position: static;
+  height: 150px;
+  margin-top: -60px;
+}
+#staffs h2 {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  margin-bottom: -25px;
+  color: #222; /*文字色設定*/
+}
+#staffs p {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  font-size: 175%;
+  padding-bottom: 20px;
+  color: #222; /*文字色設定*/
+}
+
+/*ダウンロードページ設定*/
+.DLA {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-bottom: 50px;
+}
+.DL {
+  position: relative;
+  top: 30px;
+  left: 10%;
+  width: 80%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+.DL h1 {
+  position: relative;
+  padding-top: 50px;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  color: #222; /*文字色設定*/
+}
+.DL h2 {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  color: #222; /*文字色設定*/
+}
+#DLs li {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  margin-bottom: -10px;
+}
+#DLs li a {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  font-size: 125%;
+}
+.UpdateBox {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  height: 300px;
+  padding-bottom: 50px;
+}
+.UpdateBox iframe {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+/*フッター設定*/
+footer {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #cc6300;
+  z-index: 10;
+}
+/*ロゴ設定*/
+.cmark {
+  height: 50%;
+  position: absolute;
+  top: 25%;
+  left: 2%;
+}
+footer p {
+  position: absolute;
+  top: 20%;
+  left: 7%;
+  color: #fff; /*フッターの文字色です*/
+  font-weight: 200;
+  font-size: 120%;
+}

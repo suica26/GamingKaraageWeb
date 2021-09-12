@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <!--基本設定-->
+  <head>
+    <meta charset="utf-8" />
+    <!--Webページ名の指定-->
+    <!--↓この下の1文を変更してください↓-->
+    <title>遊び方｜FourLegsChicken</title>
+    <!--CSSファイルの指定-->
+    <link rel="stylesheet" href="./TGStemplatefile/contents.css" />
+  </head>
+
+  <!--コンテンツ本体-->
+  <body>
+    <div class="container">
+      <!--ヘッダー-->
+      <header>
+        <!--ロゴ指定-->
+        <img src="./TGStemplatefile/GameLogo.png" class="glogo" />
+        <img src="./TGStemplatefile/TeamLogo.png" class="tlogo" />
+
+        <!--タブ設定-->
+        <div class="headlines">
+          <ul id="hl">
+            <li>
+              <a href="index.html"
+                ><button class="select" type="button">トップ</button></a
+              >
+            </li>
+            <li>
+              <a href="About.html"
+                ><button class="select" type="button">どんなゲーム？</button></a
+              >
+            </li>
+            <li>
+              <a href="HowToPlay.html"
+                ><button class="selectA" type="button">遊び方</button></a
+              >
+            </li>
+            <li>
+              <a href="Staff.html"
+                ><button class="select" type="button">スタッフ</button></a
+              >
+            </li>
+            <li>
+              <a href="Download.html"
+                ><button class="select" type="button">ダウンロード</button></a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <!--メインコンテンツ-->
+      <main>
+        <div class="HowA">
+          <div class="How">
+            <h1>操作説明</h1>
+
+            <!--文章のみでの説明
+            <ul id = "Hows">
+              <li><p>WASDキー：移動</p></li>
+              <li><p>スペースキー：ジャンプ</p></li>
+              <li><p>マウス：項目の選択、決定</p></li>
+              <li><p>これはあくまで例文です</p></li>
+              
+            </ul>
+            -->
+            <!--テンプレ「<li><p>〇キー：~~~~~~~~~~</p></li>」-->
+
+            <!--文章＆画像での説明-->
+            <ul id="Hows">
+              <img src="./TGStemplatefile/TeamLogo.png" />
+              <li><p>WASDキー：移動</p></li>
+              <li><p>スペースキー：ジャンプ</p></li>
+              <li><p>マウス左クリック：チキンキック</p></li>
+              <li><p>マウス右クリック：とさかカッター</p></li>
+              <li><p>マウスホイール長押し：おはようブラストをチャージ</p></li>
+              <li><p>長押し後離すと：おはようブラスト</p></li>
+              <li><p>空中でマウス左クリック長押し：ヒップスタンプ</p></li>
+            </ul>
+
+            <!--テンプレ「<li><p>〇キー：~~~~~~~~~~</p></li>」-->
+            <!--コードのものはサンプルです。実際は"./TGStemplatefile/読み込ませたい画像のファイル名"となります-->
+            <!--画像を差し替えたときは、きちんと画像のパスを変更して下さい-->
+
+            <!--画像複数での説明その1
+            <ul id = "Hows">             
+              <li><h2>キーボードでの操作<h2></li>
+              <img src="./TGStemplatefile/TeamLogo.png" >
+              <li><p>WASDキー：移動</p></li>
+              <li><p>簡単な説明</p></li>
+              
+            </ul>   
+            -->
+            <!--下の方にその2があります-->
+          </div>
+
+          <!--画像複数での説明その2
+          <div class="How">
+            <ul id = "Hows">             
+              <li><h2>Joi-Conでの操作<h2></li>
+              <img src="./TGStemplatefile/TeamLogo.png" >
+              <li><p>左スティック：移動</p></li>
+              <li><p>これはあくまで例文です</p></li>
+            
+            </ul>
+          </div>
+          -->
+          <!--この上がその2。その1と一緒にコメントアウトして使ってください。-->
+          <!--3つ以上項目を作る場合はその2を複製して下さい-->
+          <!--<h2></h2>内は項目の説明です-->
+          <!--コードのものはサンプルです。実際は"./TGStemplatefile/読み込ませたい画像のファイル名"となります-->
+          <!--テンプレ「<li><p>〇キー：~~~~~~~~~~</p></li>」-->
+          <!--画像を差し替えたときは、きちんと画像のパスを変更して下さい-->
+        </div>
+      </main>
+
+      <!--フッター-->
+      <footer>
+        <!--コミュニケーションマーク指定-->
+        <img src="./TGStemplatefile/comm_mark.png" class="cmark" />
+        <p>©Tokyo Univercity of Technology</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+html
+{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 99%;
+    height: auto;
+}
+
+/*全体設定*/
+body
+{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+.container 
+{
+    position: relative;
+    box-sizing: border-box;
+}
+
+/*文章設定*/
+main p
+{
+    position: relative;
+    width: 99%;
+    left: 2%;
+    color: #222;
+    word-wrap: break-word;
+}
