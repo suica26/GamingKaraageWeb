@@ -8,6 +8,8 @@
     <title>FourLegsChicken</title>
     <!--CSSファイルの指定-->
     <link rel="stylesheet" href="./TGStemplatefile/top.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./TGStemplatefile/slider.css">
   </head>
   <!--コンテンツ本体-->
   <body>
@@ -15,7 +17,7 @@
       <!--ヘッダー-->
       <header>
         <!--ロゴ指定-->
-        <img src="./TGStemplatefile/GameLogo.png" class="glogo" />
+        <img src="./TGStemplatefile/ChickenHed.png" class="glogo" />
         <img src="./TGStemplatefile/TeamLogo.png" class="tlogo" />
         <!--タブ設定-->
         <div class="headlines">
@@ -50,6 +52,13 @@
       </header>
       <!--メインコンテンツ-->
       <main>
+        <ul class="slider">
+          <li class="slider-item slider-item00"></li>
+          <li class="slider-item slider-item01"></li>
+          <li class="slider-item slider-item02"></li>
+          <li class="slider-item slider-item03"></li>
+          <li class="slider-item slider-item04"></li>
+        </ul>
         <div class="Titles">
           <!--ロゴ指定-->
           <img src="./TGStemplatefile/GameLogo.png" class="glogomain" />
@@ -57,11 +66,10 @@
           <div class="CC">
             <!--↓この下の文を変更してください↓-->
             <p>
-              暴れまわって建物を壊す爽快感を！
-              <!--改行は「<br>」です。-->
+              ニワトリを操作して街をぶっ壊せ！ <!--改行は「<br>」です。-->
             </p>
           </div>
-        </div>
+          </div>
         <div class="NT">
           <ul>
             <li id="NB">
@@ -106,5 +114,9 @@
         <p>©Tokyo Univercity of Technology</p>
       </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!--sliderJS-->
+    <script src="./TGStemplatefile/slider.js"></script>
   </body>
 </html>

@@ -1,14 +1,14 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css?family=Kosugi');
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Kosugi', sans-serif;
   width: 99%;
   height: auto;
 }
 
 /*全体設定*/
 body {
-  background-color: rgb(255, 255, 255);
+  background-color:#F7E456;
   margin: 0;
   width: 100%;
   height: auto;
@@ -22,7 +22,7 @@ body {
 
 /*ヘッダー設定*/
 header {
-  background-color: #cc6300; /*ヘッダー全体の基本色です*/
+  background-color: #CC1035; /*ヘッダー全体の基本色です*/
   width: 100%;
   height: auto;
   position: fixed;
@@ -56,7 +56,7 @@ header {
   height: 250%;
   line-height: 250%;
   text-align: center;
-  background-color: rgb(156, 38, 38); /*現在のタブの色です*/
+  background-color: #4C4C4C; /*現在のタブの色です*/
   float: left;
   margin-right: 1%;
   border: 0;
@@ -66,14 +66,14 @@ header {
   height: 200%;
   line-height: 200%;
   text-align: center;
-  background-color: rgb(233, 104, 104); /*現在のタブではないタブの色です*/
+  background-color:  #828282; /*現在のタブではないタブの色です*/
   float: left;
   margin-right: 1%;
   border: 0;
 }
 #hl li a button {
   text-decoration: none;
-  color: #fff; /*ヘッダーの文字色です*/
+  color: #FFFFFD; /*ヘッダーの文字色です*/
   font-weight: bold;
 }
 
@@ -84,44 +84,56 @@ main {
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: static;
-  margin: 106px 0 0 0;
-  width: 100%;
+  margin: 106px auto;
+  width: 95%;
   height: auto;
   background-color: #fff;
   min-height: 75vh;
 }
 /*ゲームロゴ＆キャッチコピー全体設定*/
-.Titles {
-  width: 100%;
-  height: 400px;
-  margin-bottom: 10%;
+.Titles
+{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10%;
 }
 /*ゲームロゴ設定*/
-.glogomain {
-  width: 40%;
-  position: absolute;
-  transform: translate(0%, -50%);
-  top: 250px;
-  left: 10%;
+.glogomain
+{
+    width: 40%;
+    position: absolute;
+    transform: translate(0%, -50%);
+    top: 770px;
+    left: 10%;
 }
 /*キャッチコピー設定*/
-.CC {
-  position: absolute;
-  top: 250px;
-  left: 57.5%;
-  width: 40%;
-  height: auto;
-  text-align: center;
-  display: block;
+.CC
+{
+    position: absolute;
+    top: 550px;
+    right: 48%;
+    width: 40%;
+    display: block;
+    line-height: 1.5;
 }
-.CC p {
-  text-align: left;
-  display: inline-block;
-  font-weight: bold;
-  width: 100%;
-  font-size: 200%;
-  color: rgb(233, 104, 104); /*キャッチコピーの文字色です*/
-  word-wrap: break-word;
+.CC p
+{
+   background: #dfefff;
+  box-shadow: 0px 0px 0px 5px rgba(244, 215, 92, 0.8
+    );
+  border: dashed 1px rgba(244, 215, 92, 0.8);
+  padding: 0.2em 0.5em;
+    width: 100%;
+    font-size: 200%;
+    color: rgb(230, 230,230);/*キャッチコピーの文字色です*/
+    text-align:center;
+	line-height:0.95em;
+	font-weight:bold;
+	text-shadow: 0.02em 0.02em 0.02em rgba(0,0,0,1);
+    word-wrap: break-word;
+    background-color: rgba(244, 215, 92, 0.8
+    );
+    vertical-alig : bottom
 }
 /*お知らせ全体設定*/
 .NT {
@@ -135,7 +147,7 @@ main {
   height: 450px;
 }
 .NT h1 {
-  color: rgb(233, 104, 104); /*"新着情報"と"Twitter"の文字色です*/
+  color: #3A322F; /*"新着情報"と"Twitter"の文字色です*/
 }
 /*新着情報設定*/
 #NB {
@@ -166,7 +178,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 100px;
-  background-color: #cc6300; /*フッター全体の基本色です*/
+  background-color: #4C4C4C; /*フッター全体の基本色です*/
   z-index: 10;
 }
 /*ロゴ設定*/

@@ -1,14 +1,14 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css?family=Kosugi');
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Kosugi', sans-serif;
   width: 99%;
   height: auto;
 }
 
 /*全体設定*/
 body {
-  background-color: rgb(255, 255, 255);
+  background-color:#F7E456;
   margin: 0;
   width: 100%;
   height: auto;
@@ -22,7 +22,7 @@ body {
 
 /*ヘッダー設定*/
 header {
-  background-color: #cc6300; /*ヘッダー全体の基本色です*/
+  background-color: #CC1035; /*ヘッダー全体の基本色です*/
   width: 100%;
   height: auto;
   position: fixed;
@@ -56,7 +56,7 @@ header {
   height: 250%;
   line-height: 250%;
   text-align: center;
-  background-color: rgb(156, 38, 38); /*現在のタブの色です*/
+  background-color: #4C4C4C; /*現在のタブの色です*/
   float: left;
   margin-right: 1%;
   border: 0;
@@ -66,26 +66,26 @@ header {
   height: 200%;
   line-height: 200%;
   text-align: center;
-  background-color: rgb(233, 104, 104); /*現在のタブではないタブの色です*/
+  background-color:  #828282; /*現在のタブではないタブの色です*/
   float: left;
   margin-right: 1%;
   border: 0;
 }
 #hl li a button {
   text-decoration: none;
-  color: #fff; /*ヘッダーの文字色です*/
+  color: #FFFFFD; /*ヘッダーの文字色です*/
   font-weight: bold;
 }
 
 /*メインコンテンツ設定*/
 main {
-  background-image: url("BackGround.png"); /*必要ならこの文を変更してください*/
+  background-image: url("BackGround.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: static;
-  margin: 106px 0 0 0;
-  width: 100%;
+  margin: 106px auto;
+  width: 95%;
   height: auto;
   background-color: #fff;
   min-height: 75vh;
@@ -123,6 +123,7 @@ main {
   width: 80%;
   height: 80%;
   margin-bottom: -10px;
+  line-height: 1.5;
 }
 #abouts h2 {
   position: relative;
@@ -153,6 +154,7 @@ main {
   height: 80%;
   padding-top: 20px;
   padding-bottom: 20px;
+  line-height: 1.5;
 }
 #stories p {
   position: relative;
@@ -224,6 +226,7 @@ main {
   width: 100%;
   height: 80%;
   padding-bottom: 20px;
+  line-height: 1.5;
 }
 #Hows li {
   position: relative;
@@ -260,6 +263,7 @@ main {
   width: 100%;
   height: auto;
   padding-bottom: 50px;
+  line-height: 1.5;
 }
 .staff {
   position: relative;
@@ -277,7 +281,10 @@ main {
   left: 10%;
   width: 80%;
   height: 80%;
-  color: #222; /*文字色設定*/
+    color:#1E1A19;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 3px #8E7C77;/*上線*/
+  border-bottom: solid 3px #8E7C77;/*下線*/
 }
 #staffs {
   position: relative;
@@ -370,7 +377,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 100px;
-  background-color: #cc6300;
+  background-color: #4C4C4C; /*フッター全体の基本色です*/
   z-index: 10;
 }
 /*ロゴ設定*/
@@ -387,4 +394,11 @@ footer p {
   color: #fff; /*フッターの文字色です*/
   font-weight: 200;
   font-size: 120%;
+}
+.Icon {
+  position: relative;
+  margin: 50px;
+  width: 500px;
+  height: 500px;
+  background-color: gray;
 }
